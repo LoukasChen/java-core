@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10cf820a-6621-41f4-b784-56e2ae685645" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ExecutorConfigurationSupport.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/concurrent/locks/Lock.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ExecutorConfigurationSupport.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/function/Consumer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/concurrent/CopyOnWriteArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/Collections.java" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/Optional.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/collect/Lists.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/scheduling/annotation/ProxyAsyncConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/lang/System.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/scheduling/annotation/AbstractAsyncConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/repository/com/ly/fn/inf/rcs/common/inf-rcs-common-utils/1.1.0-SNAPSHOT/inf-rcs-common-utils-1.1.0-SNAPSHOT.jar!/com/ly/fn/inf/rcs/common/utils/function/DataPath.class" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/concurrent/locks/LockSupport.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/Deque.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/lang/SafeVarargs.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/scheduling/annotation/EnableAsync.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/HashSet.java" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/List.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/concurrent/ThreadPoolExecutor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/RandomAccess.java" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/lang/String.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/Map.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar!/org/apache/commons/lang3/StringUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/scheduling/annotation/AsyncConfigurationSelector.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/com/ly/fn/inf/rcs/common/inf-rcs-common-utils/1.1.0-SNAPSHOT/inf-rcs-common-utils-1.1.0-SNAPSHOT.jar!/com/ly/fn/inf/rcs/common/utils/function/GenericStaticFunctions.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/scheduling/annotation/AsyncConfigurerSupport.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/concurrent/ConcurrentHashMap.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/repository" />
+        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/maven/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1n6r9GrG6QZIUafuJzWWYQoaK8o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin/jvisualvm" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+    <option name="showRenderedDocs" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.csp.map" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LookSupportApi">
+    <configuration name="ABATest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.csp.concurrency.atomic.ABATest" />
+      <module name="java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.csp.concurrency.atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountOperate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.csp.concurrency.lock.AccountOperate" />
+      <module name="java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.csp.concurrency.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicStampedReferenceApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.csp.concurrency.atomic.AtomicStampedReferenceApi" />
+      <module name="java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.csp.concurrency.atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LookSupportApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.csp.concurrency.lock.LookSupportApi" />
+      <module name="java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.csp.concurrency.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.csp.concurrency.lock.ReentrantLockTest" />
+      <module name="java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.csp.concurrency.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LookSupportApi" />
+        <item itemvalue="Application.AccountOperate" />
+        <item itemvalue="Application.AtomicStampedReferenceApi" />
+        <item itemvalue="Application.ABATest" />
+        <item itemvalue="Application.ReentrantLockTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10cf820a-6621-41f4-b784-56e2ae685645" name="Default Changelist" comment="" />
+      <created>1610721229114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610721229114</updated>
+      <workItem from="1610721231390" duration="16227000" />
+      <workItem from="1610982378266" duration="592000" />
+      <workItem from="1611986100040" duration="8982000" />
+      <workItem from="1612837916166" duration="16160000" />
+      <workItem from="1612956771035" duration="39420000" />
+      <workItem from="1613270274144" duration="5906000" />
+      <workItem from="1613463673705" duration="14987000" />
+      <workItem from="1615551173998" duration="3224000" />
+      <workItem from="1615600056154" duration="21519000" />
+      <workItem from="1616227459109" duration="17854000" />
+      <workItem from="1616835638829" duration="14578000" />
+      <workItem from="1617350442144" duration="110000" />
+      <workItem from="1620204780657" duration="9700000" />
+      <workItem from="1620265522213" duration="6438000" />
+      <workItem from="1621164549801" duration="4405000" />
+      <workItem from="1621172613210" duration="4363000" />
+      <workItem from="1621253611373" duration="2929000" />
+      <workItem from="1621686790258" duration="8915000" />
+      <workItem from="1622253863813" duration="3829000" />
+      <workItem from="1622262758884" duration="20500000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/csp/java8/vavr/TupleTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/csp/java8/optional/OptionalDemo.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/csp/java8/optional/OptionalDemo.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/util/Optional.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="value == new char[]{'s','1'}" language="JAVA" />
+          <url>file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/lang/String.java</url>
+          <line>2899</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="original == &quot;s1&quot;" language="JAVA" />
+          <url>file:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src/java/lang/String.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/csp/collection/list/CollectionDemo.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/csp/collection/list/DequeApi.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="43" />
+        </breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
