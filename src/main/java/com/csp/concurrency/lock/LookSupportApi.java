@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
 /**
- * @description:
+ * @description: LookSupport核心功能
  * @author: csp52872
  * @date: 2021/05/30
  */
@@ -20,7 +20,6 @@ public class LookSupportApi {
         TimeUnit.SECONDS.sleep(1);
         LockSupport.unpark(thread);
         System.out.println("unpark");
-
     }
 
 }
