@@ -1,4 +1,4 @@
-package com.csp.design_patterns.agent;
+package com.csp.designPatterns.agent;
 
 import java.rmi.Remote;
 

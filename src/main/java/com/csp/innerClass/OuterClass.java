@@ -15,6 +15,10 @@ public class OuterClass {
 
     private static String staticVariables = "staticVariables";
 
+    static String acess$1() {
+        return staticVariables;
+    }
+
     public void outerMethod() {
         System.out.println("OuterClass.outerMethod() globalVariables=" + globalVariables);
         // 成员方法内部类
@@ -65,7 +69,7 @@ public class OuterClass {
             System.out.println("StaticInnerClass.innerMethod() b=" + b);
 
             // 静态内部类的成员方法可以访问外部类的静态变量
-            System.out.println("StaticInnerClass.innerMethod() staticVariables=" + staticVariables);
+            System.out.println("StaticInnerClass.innerMethod() staticVariables=" + OuterClass.acess$1());
 
             // 静态内部类的成员方法无法访问外部类的成员变量
 //            System.out.println("StaticInnerClass.innerMethod() globalVariables=" + globalVariables);

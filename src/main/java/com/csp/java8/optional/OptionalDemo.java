@@ -17,6 +17,12 @@ import java.util.function.Function;
  */
 public class OptionalDemo {
     public static void main(String[] args) throws Throwable {
+        String[] str = {"123","456"};
+        Optional.ofNullable(str).filter(x -> x.length == 2).ifPresent(item -> {
+            System.out.println(item[0]);
+            System.out.println(item[1]);
+        });
+
         System.out.println(Optional.ofNullable(null).filter(o -> false));
         List<Optional<Person>> UserList = new ArrayList<>();
         for (int i = 0; i < 3; i++) {

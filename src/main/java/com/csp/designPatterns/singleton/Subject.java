@@ -1,4 +1,4 @@
-package com.csp.design_patterns.singleton;
+package com.csp.designPatterns.singleton;
 
 /**
  * @author csp

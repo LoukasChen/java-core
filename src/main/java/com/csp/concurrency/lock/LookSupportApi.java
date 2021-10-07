@@ -12,14 +12,14 @@ public class LookSupportApi {
 
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(() -> {
-            System.out.println("park");
+            System.out.println(Thread.currentThread().getName() + ":park");
             LockSupport.park();
-            System.out.println("exit");
+            System.out.println(Thread.currentThread().getName() + ":exit");
         });
         thread.start();
         TimeUnit.SECONDS.sleep(1);
         LockSupport.unpark(thread);
-        System.out.println("unpark");
+        System.out.println(Thread.currentThread().getName() + ":unpark");
     }
 
 }

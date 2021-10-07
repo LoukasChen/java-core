@@ -14,7 +14,6 @@ public class TupleTest {
 
     public static void main(String[] args) {
         Tuple2<String, Integer> tuple2 = Tuple.of("java", 8);
-
         Map<Integer, List<Integer>> tuple2s = List.of(1, 2, 3, 4).groupBy(i -> i % 2);
 
         System.out.println();
