@@ -1,4 +1,4 @@
-package com.csp.concurrency.lock;
+package com.csp.concurrency.lock.lock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

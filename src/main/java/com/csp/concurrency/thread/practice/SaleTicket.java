@@ -1,4 +1,4 @@
-package com.csp.concurrency.thread;
+package com.csp.concurrency.thread.practice;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;

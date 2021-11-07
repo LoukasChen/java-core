@@ -1,4 +1,4 @@
-package com.csp.concurrency.lock;
+package com.csp.concurrency.lock.synchronize;
 
 /**
  * @description: 锁的可重入性

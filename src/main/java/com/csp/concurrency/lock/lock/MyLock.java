@@ -1,4 +1,4 @@
-package com.csp.concurrency.lock;
+package com.csp.concurrency.lock.lock;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;

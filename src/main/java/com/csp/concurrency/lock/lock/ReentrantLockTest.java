@@ -1,4 +1,4 @@
-package com.csp.concurrency.lock;
+package com.csp.concurrency.lock.lock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -12,6 +12,7 @@ public class ReentrantLockTest {
 
     // 默认和sychronized为非公平锁
     private static final Lock unfairLock = new ReentrantLock();
+
     // 参数传递true为公平锁，相比较更消耗cpu性能
     private static final Lock fairLock = new ReentrantLock(true);
 
