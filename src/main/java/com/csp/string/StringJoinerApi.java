@@ -8,9 +8,9 @@ import java.util.stream.IntStream;
  * @author: csp52872
  * @date: 2021/03/21
  */
-public class StringJoinerDemo {
+public class StringJoinerApi {
     public static void main(String[] args) {
-        StringJoiner stringJoiner = new StringJoiner(":");
+        StringJoiner stringJoiner = new StringJoiner(",", "[", "]");
         IntStream.range(1, 10).forEach(i -> stringJoiner.add(i + ""));
         System.out.println(stringJoiner);
     }

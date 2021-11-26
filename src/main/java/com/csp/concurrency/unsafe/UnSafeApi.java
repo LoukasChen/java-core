@@ -17,6 +17,9 @@ public class UnSafeApi {
         // 静态字段
         Unsafe unsafe = (Unsafe) theUnsafe.get(null);
 
+        unsafe.allocateMemory(1024);
+        unsafe.freeMemory(1024);
+
         // 获取域的偏移地址
         long idOffset = unsafe.objectFieldOffset(User.class.getDeclaredField("id"));
         long nameOffset = unsafe.objectFieldOffset(User.class.getDeclaredField("name"));
