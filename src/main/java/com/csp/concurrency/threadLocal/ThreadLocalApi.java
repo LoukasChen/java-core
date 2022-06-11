@@ -1,7 +1,5 @@
 package com.csp.concurrency.threadLocal;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
  * @description: ThreadLocal
  * @author: csp52872

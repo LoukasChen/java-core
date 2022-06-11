@@ -2,6 +2,7 @@ package com.csp.jvm.imitate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @desc:
@@ -10,9 +11,10 @@ import java.util.List;
  */
 public class HeapOOM {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         List<Object> list = new ArrayList<>();
         while (true) {
+            TimeUnit.SECONDS.sleep(3);
             list.add(new Object());
         }
     }

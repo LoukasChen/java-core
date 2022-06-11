@@ -1,7 +1,9 @@
 package com.csp.reflect;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.util.Arrays;
 
 /**
  * @desc: 是否为合成字段
@@ -19,5 +21,6 @@ public class IsSynthetic {
             System.out.println("name:" + field.getName() + ",isSynthetic:" + field.isSynthetic());
         }
 
+        Arrays.stream(clazz.getDeclaredMethods()).allMatch(Method::isBridge);
     }
 }

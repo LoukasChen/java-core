@@ -13,19 +13,20 @@ public class RecursiveDemo {
         System.out.println(caculateRabbit(6));
     }
 
-    private static int multiply(int n){
+    private static int multiply(int n) {
         if (n == 1) {
             return 1;
-        }else {
-            return n*multiply(n-1);
+        } else {
+            return n * multiply(n - 1);
         }
     }
+
     // 1 1 2 3 5 8
-    private static int caculateRabbit(int month){
-        if (month == 1 || month ==2) {
+    private static int caculateRabbit(int month) {
+        if (month == 1 || month == 2) {
             return 1;
         } else {
-            return caculateRabbit(month-1)+caculateRabbit(month-2);
+            return caculateRabbit(month - 1) + caculateRabbit(month - 2);
         }
     }
 }

@@ -12,14 +12,16 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class HashMapTest {
     public static void main(String[] args) {
-        Map<String, Integer> map = new HashMap<>();
+        HashMap<String, Integer> map = new HashMap<>();
+        map.clone();
         Map<String, Integer> synchronizedMap = Collections.synchronizedMap(map);
-        ConcurrentHashMap<String, String> concurrentHashMap = new ConcurrentHashMap<>();
+        Map<String, Integer> readOnlyMap = Collections.unmodifiableMap(map);
+        ConcurrentHashMap<String, Integer> concurrentHashMap = new ConcurrentHashMap<>();
         for (int i = 0; i < 12; i++) {
             map.put("java" + i, i);
         }
         for (int i = 0; i < 12; i++) {
-            map.put("scala" + i, i);
+            concurrentHashMap.put("scala" + i, i);
         }
 
     }

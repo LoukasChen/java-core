@@ -3,6 +3,7 @@ package com.csp.jvm.reference;
 import java.lang.ref.Reference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
+import java.sql.DriverManager;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +17,7 @@ public class SoftReferenceTest {
     private static final int _5M = 1024 * 1024 * 5;
 
     public static void main(String[] args) {
+        System.out.println(DriverManager.class.getClassLoader());
 //        oom_heap_space();
 //        softReference();
         referenceQueue();
