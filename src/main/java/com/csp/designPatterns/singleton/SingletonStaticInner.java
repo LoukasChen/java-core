@@ -6,14 +6,17 @@ package com.csp.designPatterns.singleton;
  * @date 2019/10/8 21:48
  */
 public class SingletonStaticInner {
-    private SingletonStaticInner() {
 
+    private SingletonStaticInner() {
     }
-    private static class SingletonHolder{
+
+    private static class SingletonHolder {
+
         private static final SingletonStaticInner INSTANCE = new SingletonStaticInner();
     }
 
     public static SingletonStaticInner getUniqueInstance() {
         return SingletonHolder.INSTANCE;
     }
+
 }

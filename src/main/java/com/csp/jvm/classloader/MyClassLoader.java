@@ -1,6 +1,7 @@
 package com.csp.jvm.classloader;
 
 import java.io.*;
+import java.nio.file.Files;
 
 /**
  * @author csp
@@ -10,6 +11,7 @@ import java.io.*;
 public class MyClassLoader extends ClassLoader {
 
     private String path;
+
     private String classLoaderName;
 
     public MyClassLoader(String path, String classLoaderName) {
@@ -37,7 +39,7 @@ public class MyClassLoader extends ClassLoader {
      */
     private byte[] loadClassData(String name) {
         name = path + name + ".class";
-        try (InputStream inputStream = new FileInputStream(new File(name));
+        try (InputStream inputStream = Files.newInputStream(new File(name).toPath());
              ByteArrayOutputStream outputStream = new ByteArrayOutputStream()) {
             int i;
             while ((i = inputStream.read()) != -1) {

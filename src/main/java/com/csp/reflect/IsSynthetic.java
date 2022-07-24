@@ -1,8 +1,6 @@
 package com.csp.reflect;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+import java.lang.reflect.*;
 import java.util.Arrays;
 
 /**
@@ -12,7 +10,14 @@ import java.util.Arrays;
  */
 public class IsSynthetic {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        Class<Foo> fooClass = Foo.class;
+        Constructor<Foo> constructor = fooClass.getDeclaredConstructor();
+        constructor.setAccessible(true);
+        Foo foo = constructor.newInstance();
+
+//        Foo foo = fooClass.newInstance();
+
         Class<Foo.Bar> clazz = Foo.Bar.class;
         for (Field field : clazz.getDeclaredFields()) {
             System.out.println(field.getModifiers());

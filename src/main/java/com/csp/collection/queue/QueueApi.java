@@ -1,4 +1,4 @@
-package com.csp.collection.list;
+package com.csp.collection.queue;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

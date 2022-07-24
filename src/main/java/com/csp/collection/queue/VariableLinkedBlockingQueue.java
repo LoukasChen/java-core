@@ -1,4 +1,4 @@
-package com.csp.queue;
+package com.csp.collection.queue;
 import java.util.AbstractQueue;
 import java.util.Collection;
 import java.util.Iterator;

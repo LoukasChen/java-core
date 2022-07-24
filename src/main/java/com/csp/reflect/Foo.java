@@ -6,6 +6,10 @@ package com.csp.reflect;
  */
 public class Foo {
 
+    private Foo() {
+
+    }
+
     private String foo = "foo";
 
     class Bar {

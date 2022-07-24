@@ -2,11 +2,12 @@ package com.csp.designPatterns.singleton;
 
 /**
  * @author csp
- * @description: TODO
+ * @description: 枚举实现单例（枚举在内存中只存在一份）
  * @date 2019/10/8 22:20
  */
 public enum SingletonEnum {
     INSTANCE;
+
     private String objName;
 
     public String getObjName() {
@@ -25,6 +26,6 @@ public enum SingletonEnum {
         secondSingleton.setObjName("secondName");
         System.out.println(firstSingleton.getObjName());
         System.out.println(secondSingleton.getObjName());
-        System.out.println(firstSingleton==secondSingleton);
+        System.out.println(firstSingleton == secondSingleton);
     }
 }
