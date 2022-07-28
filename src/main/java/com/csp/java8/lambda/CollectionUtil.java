@@ -25,7 +25,7 @@ public class CollectionUtil {
     }
 
     public static <T> void foreach(List<T> list, Consumer<T> consumer) {
-        list.forEach(t -> consumer.accept(t));
+        list.forEach(consumer);
     }
 
     public static <T, R> List<R> collect(List<T> list, Function<T, R> function) {
@@ -41,21 +41,21 @@ public class CollectionUtil {
     }
 
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(new Integer[]{1, 2, 3});
+        List<Integer> list = Arrays.asList(1, 2, 3);
 
         List<Integer> filteredList = CollectionUtil.filter(list, predicate -> !predicate.equals(2));
-        System.out.println(filteredList.toString());
+        System.out.println(filteredList);
 
-        CollectionUtil.foreach(list, consumer -> System.out.println(consumer));
+        CollectionUtil.foreach(list, System.out::println);
 
-        List<Double> collectedList = CollectionUtil.collect(list, function -> function.doubleValue());
-        System.out.println(collectedList.toString());
+        List<Double> collectedList = CollectionUtil.collect(list, Integer::doubleValue);
+        System.out.println(collectedList);
 
-        List<Integer> collectList = CollectionUtil.collect(list, () -> list.size());
-        System.out.println(collectList.toString());
+        List<Integer> collectList = CollectionUtil.collect(list, list::size);
+        System.out.println(collectList);
 
-        Runnable test = System.out::println;
-        test.run();
+        Runnable runnable = System.out::println;
+        runnable.run();
     }
 
 }

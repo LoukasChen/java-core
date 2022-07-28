@@ -30,9 +30,7 @@ public class LambdaTest {
             }
         }).start();
 
-        new Thread(() -> {
-            System.out.println("start thread");
-        }).start();
+        new Thread(() -> System.out.println("start thread")).start();
 
         LambdaTest lambdaTest = new LambdaTest();
         lambdaTest.doSomeThing((Task) () -> System.out.println(111));
