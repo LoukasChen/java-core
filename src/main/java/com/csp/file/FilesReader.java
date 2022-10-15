@@ -98,9 +98,10 @@ public class FilesReader {
      */
     private static void fileChannel(Path srcPath, Path destPath) throws Exception {
         long startTime = Instant.now().toEpochMilli();
-        FileChannel in = FileChannel.open(srcPath, READ);
-        FileChannel out = FileChannel.open(destPath, CREATE, WRITE);
-        in.transferTo(0, in.size(), out);
+        try (FileChannel in = FileChannel.open(srcPath, READ);
+             FileChannel out = FileChannel.open(destPath, CREATE, WRITE)) {
+            in.transferTo(0, in.size(), out);
+        }
         System.out.println(Instant.now().toEpochMilli() - startTime);
     }
 

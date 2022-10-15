@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="rateLimiter" class="com.csp.designPattern.creation.singleton.di.RateLimiter">
+        <constructor-arg ref="redisCounter"/>
+    </bean>
+
+    <bean id="redisCounter" class="com.csp.designPattern.creation.singleton.di.RedisCounter">
+        <constructor-arg name="ip" value="127.0.0.1"/>
+        <constructor-arg name="port" value="8000"/>
+    </bean>
+
+</beans>

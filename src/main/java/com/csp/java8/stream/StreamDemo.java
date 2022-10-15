@@ -163,31 +163,31 @@ public class StreamDemo {
                 .map(i -> i * i)
                 .filter(i -> i % 3 == 0)
                 .findFirst()
-                .ifPresent(i -> System.out.println(i));
+                .ifPresent(System.out::println);
     }
 
     public static void reduce() {
-        Integer add = numberList.stream().reduce(0, (i, j) -> i + j);
+        Integer add = numberList.stream().reduce(0, Integer::sum);
         System.out.println(add);
 
         Integer reduce = numberList.stream().reduce(0, Integer::sum);
         System.out.println(reduce);
 
-        numberList.stream().reduce(Integer::sum).ifPresent(sum -> System.out.println(sum));
+        numberList.stream().reduce(Integer::sum).ifPresent(System.out::println);
 
-        numberList.stream().reduce(Integer::max).ifPresent(max -> System.out.println(max));
+        numberList.stream().reduce(Integer::max).ifPresent(System.out::println);
 
-        numberList.stream().reduce(Integer::min).ifPresent(min -> System.out.println(min));
+        numberList.stream().reduce(Integer::min).ifPresent(System.out::println);
 
         // 利用map-reduce统计菜单中有多个菜
-        menuList.stream().map(dish -> 1).reduce(Integer::sum).ifPresent(sum -> System.out.println(sum));
+        menuList.stream().map(dish -> 1).reduce(Integer::sum).ifPresent(System.out::println);
         // 利用count统计菜单中有多个菜
         long count = menuList.stream().count();
     }
 
     public static List<String> peek() {
         return menuList.stream()
-                .filter(menu -> menu.isVegetarian())
+                .filter(Dish::isVegetarian)
                 .peek(e -> System.out.println("menu filter:" + e))
                 .map(Dish::getName)
                 .peek(e -> System.out.println("menu getName:" + e))
